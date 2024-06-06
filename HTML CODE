@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="card">
+            <div class="head">
+            <input value="Search Places" type="text">
+           <button id="search" ><img id="im" src="images/search.png"></button>
+        </button> 
+        </div>
+        <img id="weatherImage" src="images/clear.png">
+        <div class="text" id="temp"></div>
+        <div class="text" id="city">weather</div>
+        <div class="otherInfo">
+            <div id="otherInfo1">
+            <img id="otherInfo1Image" src="images/humidity.png">
+            <div id="otherInfo1Data"></div>
+        </div>
+        <div id="otherInfo2">
+            <img id="otherInfo1Image" src="images/wind.png">
+            <div id="otherInfo2Data"></div>
+        </div>
+       
+        </div>
+        <div id="data">
+            <div id="data1">Humidity</div>
+            <div id="data2">WindSpeed</div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
